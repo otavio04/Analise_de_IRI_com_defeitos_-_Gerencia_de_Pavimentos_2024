@@ -233,7 +233,7 @@ def plotar_histogramas(exc, bom, reg, rui, pes, defeito, escala):
         # Adicionar uma legenda consolidada fora do loop na posição (2, 4, 8)
         ax = plt.subplot(2, 4, 8)  # Posiciona a legenda no subplot 8
         # Criar uma legenda combinada
-        labels = ['Excelente', 'Boa', 'Regular', 'Ruim', 'Péssima']
+        labels = ['Excelente', 'Bom', 'Regular', 'Ruim', 'Péssimo']
         colors = ['blue', 'green', 'orange', 'brown', 'red']
         handles = [plt.Line2D([0], [0], color=color, lw=5) for color in colors]
         ax.legend(handles, labels, fontsize=16)
